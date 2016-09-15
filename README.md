@@ -22,5 +22,5 @@
 
 ####  Dockerized PHP
 
-    `docker build -t command-cryptic-console-emulator`
-    `docker run -it command-cryptic-console-emulator`
+    docker build -t command-cryptic-console-emulator
+    docker run -it command-cryptic-console-emulator
