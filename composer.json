@@ -1,0 +1,14 @@
+{
+    "require": {
+        "amabnl/amadeus-ws-client": "dev-develop",
+        "symfony/var-dumper": "^3.1",
+        "monolog/monolog": "^1.21",
+        "symfony/console": "^3.1",
+        "vlucas/phpdotenv": "~2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
