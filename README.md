@@ -2,8 +2,9 @@
 
 ### Требования
 
+0. Libs: libxml2-dev libxslt1-dev
 1. PHP >= 5.6
-2. PHP SoapClient 
+2. PHP extensions: xsl soap 
 3. Composer
 
 ### Установка и подготовка
@@ -15,4 +16,11 @@
 
 ### Запуск
 
+#### Установленный нативно PHP
+
 `php cryptic`
+
+####  Dockerized PHP
+
+    `docker build -t command-cryptic-console-emulator`
+    `docker run -it command-cryptic-console-emulator`
