@@ -6,6 +6,7 @@
 1. PHP >= 5.6
 2. PHP extensions: xsl soap 
 3. Composer
+4. (опционально) Docker
 
 ### Установка и подготовка
 
@@ -22,5 +23,7 @@
 
 ####  Dockerized PHP
 
-    `docker build -t command-cryptic-console-emulator`
-    `docker run -it command-cryptic-console-emulator`
+Запуск командой `docker run -it -v "$(pwd)/.env":/console/.env -v "$(pwd)/WSDL":/console/WSDL tmconsulting/amadeus-console-emulator`
+
+Внимание! Для запуска из контейнера необходима подгрузка .env файла с настройками и папки WSDL с wsdl и xsd файлами. 
+ Запускайте контейнер из папки, где у вас лежат эти файлы и папки.

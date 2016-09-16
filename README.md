@@ -6,6 +6,7 @@
 1. PHP >= 5.6
 2. PHP extensions: xsl soap 
 3. Composer
+4. (optional) Docker
 
 ### Install and configure
 
@@ -22,5 +23,6 @@ Run `php cryptic`
 
 ####  Dockerized PHP
 
-    docker build -t command-cryptic-console-emulator
-    docker run -it command-cryptic-console-emulator
+Run `docker run -it -v "$(pwd)/.env":/console/.env -v "$(pwd)/WSDL":/console/WSDL tmconsulting/amadeus-console-emulator`
+
+Warning! To run emulator you need to pass .env file and WSDL folder. Run command from folder that has this files and folder.

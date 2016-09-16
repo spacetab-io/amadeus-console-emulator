@@ -6,6 +6,6 @@ RUN apt-get update && apt-get install -y \
 
 RUN docker-php-ext-install -j$(nproc) xsl soap
 
-COPY . /cryptic
-WORKDIR /cryptic
+COPY . /console
+WORKDIR /console
 CMD ["php", "cryptic"]
