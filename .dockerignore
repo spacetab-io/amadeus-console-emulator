@@ -1,4 +1,6 @@
 .env
 WSDL
+composer.phar
+logs
 !.dockerignore
 !Dockerfile
