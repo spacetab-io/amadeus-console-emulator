@@ -1,6 +1,6 @@
 ## Amadeus console emulator (by Command Cryptic)
 
-### Требования
+### Requirements
 
 0. Libs: libxml2-dev libxslt1-dev
 1. PHP >= 5.6
@@ -18,7 +18,7 @@
 
 #### In system PHP installation
 
-Run `php cryptic` in the root of it repo
+Run `php cryptic`
 
 ####  Dockerized PHP
 
