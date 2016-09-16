@@ -5,7 +5,8 @@ WORKDIR /console
 
 RUN apt-get update && apt-get install -y \
         libxml2-dev \
-        libxslt1-dev
+        libxslt1-dev \
+        git
 
 RUN docker-php-ext-install -j$(nproc) xsl soap
 
