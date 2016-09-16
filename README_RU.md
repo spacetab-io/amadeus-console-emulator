@@ -1,5 +1,7 @@
 ## Amadeus console emulator (by Command Cryptic)
 
+![](http://i.imgur.com/EsYtWjL.png)
+
 ### Требования
 
 0. Libs: libxml2-dev libxslt1-dev
