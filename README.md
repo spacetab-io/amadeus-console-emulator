@@ -7,18 +7,18 @@
 2. PHP extensions: xsl soap 
 3. Composer
 
-### Установка и подготовка
+### Install and configure
 
-1. Склонировать репозиторий
-2. Сделать `composer install`
-3. В папку WSDL добавить wsdl и xsd файлы
-4. Создать .`env` файл из `.env.example`, прописав в него все пропущенные значения
+1. Clone this repo
+2. Make `composer install`
+3. Copy your WSAP wsdl and xsd files into WSDL folder
+4. Create `.env` file from `.env.example` and fill it variables
 
-### Запуск
+### Launch
 
-#### Установленный нативно PHP
+#### In system PHP installation
 
-`php cryptic`
+Run `php cryptic` in the root of it repo
 
 ####  Dockerized PHP
 
