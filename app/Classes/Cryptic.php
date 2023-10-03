@@ -48,10 +48,11 @@ class Cryptic
 
         $params = new Params([
                 'sessionHandlerParams' => [
-                    'soapHeaderVersion' => Client::HEADER_V2,
+                    'soapHeaderVersion' => Client::HEADER_V4,
                     //Points to the location of the WSDL file for your WSAP. Make sure the associated XSD's are also available.
                     'wsdl'              => BASE_PATH . '/WSDL/'.getenv('WSDL_NAME'),
-                    'logger'            => $securityLogger
+                    'logger'            => $securityLogger,
+                    'stateful'          => true         
                 ],
                 'authParams'           => $authParams,
                 'requestCreatorParams' => [
